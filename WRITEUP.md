@@ -1,12 +1,11 @@
-# Write-up Template
+**Analysis**
+One of the main differences between App Services and Virtual Machines is how they are managed. App Services infrastructure does not need to be manually configured or maintained, it is taken care of for you. This is the opposite of Virtual Machines, where you have the ability to manually configure or customize the infrastructure. App Service is more 'low maintenance' when taking about manageability and manual effort, but if you require more control and customization for your solution then a VM is a better option. Virtual Machines are accessible through remote desktop which is not a functionality of App Services, so if that is something that is required then the VM route would be necessary. App Services are more scalable, easier to adjust to your purpose and needs, which in turn can make it more cost effective, it gives you more options and opportunities to reduce costs with better scalability.
 
-### Analyze, choose, and justify the appropriate resource option for deploying the app.
+**My Deployment Solution**
+I have chosen the Azure App Service option.
 
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
+**Justification**
+In the use case of this project, I went with the App service option, opposed to the Virtual Machine option. An app service is scalable and can be more fit-for-purpose, in this case scaled down to fit the needs of the project. Azure app infrastructure is also managed by Microsoft Azure allowing for less time focused on creating and maintaining infrastructure manually. In this case it is also more cost effective to use Azure app service because of the aforementioned scalability feature. 
 
-### Assess app changes that would change your decision.
-
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+### **App changes that would change my decision**
+For me to change my decision from the App Service to the Virtual Machine, I would have had to run into a situation where my App Service simply did not have enough resources to handle what I was trying to accomplish. The advantages I highlighted for the App Service, and why I chose it, was rooted in the scalability and cost effectiveness because the project did not require much load on the App Service, so the load would have to change for my solution to change.
