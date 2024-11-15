@@ -13,6 +13,7 @@ DB compute + storage: DTU - Basic
 Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
 Set everything else to default
 Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
+
 ###3. Storage Account
 Resource group: cms
 Storage account name: images11 (needs to be unique)
@@ -23,10 +24,13 @@ Create container named "images". Set its access level to Container.
 From Security + networking > Access keys:
 Blob Storage key: 8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2
 Blob connection string: DefaultEndpointsProtocol=https;AccountName=images11;AccountKey=8vNfUqGqnND0GI1Yujdd17gwURdEyBwVsFfKuiwZJdByu8DEWhHc2R1RYcQFxxUX2vqx72OXiz2/+AStSydbYA==;EndpointSuffix=core.windows.net
+
 ###4. Microsoft Entra ID
+
 ###5. App Registration
 Name: cmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
+
 ###6. Secret Creation
 Secret description: cmsSecret
 Secret Key: 3a51cadc-dc5f-4503-959d-d4286f24d7a4
@@ -55,6 +59,7 @@ CLIENT_ID: 4cec6730-afad-4714-b5bb-9b2c6666eaba
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
+
 ###8. Setting up OAuth2
 At this point, your application should already be running. You should already be able to log in with username admin and password pass and you can create new posts or update existing ones.
 
