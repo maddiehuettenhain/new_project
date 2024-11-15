@@ -2,7 +2,7 @@
 Resource Group Name: cms
 
 ###2. SQL Database
-DB name: cms /n
+DB name: cms \n
 Server: cms.database.windows.net
 DB region: us-east
 Admin login: cmsadmin
