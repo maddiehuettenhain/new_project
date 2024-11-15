@@ -17,13 +17,13 @@
 
 3. Storage Account
 	Resource group: cms
-	Storage account name: images1361
+	Storage account name: images13612
 	Advanced - Allow enabling anonymous access on individual containers: Enable
 	Advanced - Access tier: Cool
 	Network access: Enable public access from all networks (the default)
 	Create container named "images". Set its access level to Container.
 	From Security + networking > Access keys:
-	Blob Storage key: kfy3XCCGzq8NQ//XOzmOz3w/IN/xQsChJLwzIipiU+x2PFpPczPAnd1TL16b7s1as1ybCllbtXRN+AStuN8hmw==
+	Blob Storage key: J6axDnz09tBYaW23EMLRPVFzU2iDlRH8D8QN+a/wej2HU0uvUdeeolo8OrTM+IY/336rHPxaY00r+AStXEW+sA==
 
 4. Microsoft Entra ID
 5. App Registration
@@ -43,9 +43,9 @@
 	
 	After creation:
 	Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-	BLOB_ACCOUNT: images1361
+	BLOB_ACCOUNT: images13612
 	BLOB_CONTAINER: images
-	BLOB_STORAGE_KEY: kfy3XCCGzq8NQ//XOzmOz3w/IN/xQsChJLwzIipiU+x2PFpPczPAnd1TL16b7s1as1ybCllbtXRN+AStuN8hmw==
+	BLOB_STORAGE_KEY: J6axDnz09tBYaW23EMLRPVFzU2iDlRH8D8QN+a/wej2HU0uvUdeeolo8OrTM+IY/336rHPxaY00r+AStXEW+sA==
 	SQL_SERVER: cms.database.windows.net
 	SQL_DATABASE: cms
 	SQL_USER_NAME: cmsadmin
