@@ -1,14 +1,23 @@
 ###1. Resource Group
+
 Resource Group Name: cms
 
 ###2. SQL Database
+
 DB name: cms
+
 Server: cms.database.windows.net
+
 DB region: us-east
+
 Admin login: cmsadmin
+
 Admin password: CMS4dmin
+
 Resource group: cms
+
 DB workload env: Development
+
 DB compute + storage: DTU - Basic
 Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
 Set everything else to default
